@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*Контейнер*/
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*Лого*/
+
+.logo {
+    width: 5%;
+}
+
+.header_inner {
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+    margin: 0 6%;
+
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav {
+    background-color: #e32636;
+
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 1.5%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu li {
+    margin: 1% 0;
+}
+
+.nav_title {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+.coins {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coins_block {
+    width: 50%;
+    height: 50%;
+    margin-top: 2%;
+
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.coins_button {
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+
+    display: block;
+    background: #fff;
+    padding: 2%;
+    margin-top: 1%;
+    margin-right: 40%;
+    border: 1px solid #e0dada;
+}
+
+.coins_button:hover{
+    border: 1px solid #756f6f;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
